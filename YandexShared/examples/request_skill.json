@@ -1,0 +1,33 @@
+ "request": {
+    "command": "включи компьютер вираня",
+    "original_utterance": "включи компьютер вираня",
+    "nlu": {
+      "tokens": [
+        "включи",
+        "компьютер",
+        "вираня"
+      ],
+      "entities": [],
+      "intents": {
+        "base_intent": {
+          "slots": {
+            "what": {
+              "type": "YANDEX.STRING",
+              "tokens": {
+                "start": 1,
+                "end": 2
+              },
+              "value": "компьютер"
+            },
+            "whose": {
+              "type": "YANDEX.STRING",
+              "tokens": {
+                "start": 2,
+                "end": 3
+              },
+              "value": "вираня"
+            }
+          }
+        }
+      }
+    }

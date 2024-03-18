@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ProjectName>ServerForCommands</ProjectName>
+    <ProjectGuid>edfb4a48-e56b-4df4-a2b6-fe8176038b85</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\YandexShared\YandexShared.csproj" />
+  </ItemGroup>
+</Project>

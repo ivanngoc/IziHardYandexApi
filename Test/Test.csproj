@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ProjectName>Test</ProjectName>
+    <ProjectGuid>14eb95ee-87f0-4767-96a1-73edac05be6b</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ServerForCommands\ServerForCommands.csproj" />
+    <ProjectReference Include="..\YandexShared\YandexShared.csproj" />
+  </ItemGroup>
+</Project>
